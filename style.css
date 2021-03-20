@@ -1,0 +1,196 @@
+/* TITLE.PHP STYLES *********************************************/
+.center
+{
+	text-align:center;
+}
+
+#GameContainer{
+	background:#536DFE;
+}
+
+#hangman-div
+{
+	padding:10px;
+	text-align:center;  
+	background-color: #866249;
+}
+
+#logo
+{
+	max-width:100%;
+	vertical-align:middle;
+}
+
+#levels-div
+{
+	text-align:center;
+	max-width:450px;
+	margin:0 auto;
+	font-weight:bold;
+	background:#536DFE;
+}
+
+#submit-button
+{
+	width:200px;
+	height:50px;
+	font-weight:bold;
+	margin:20px 0px;
+}
+
+label
+{
+	color:black;
+}
+
+#credits
+{
+	font-family:verdana;
+	font-size:14px;
+}
+
+#credits a
+{
+	text-decoration:none;
+	color:purple;
+}
+
+
+/* START.PHP STYLES *********************************************/
+#letters
+{
+	font-weight:bold;
+	border:1px solid black;
+	padding:10px;
+	width: 100%;
+	background:rgb(255, 255, 255);
+}
+
+.letter
+{
+	font-size:20px;
+	font-weight:bold;
+	margin:0 10px;
+	cursor:pointer;
+	padding:0 10px;
+	float:left;
+	width:30px;
+	border:1px solid transparent;
+}
+
+.letter:hover
+{
+	background:#536DFE;
+	border:1px solid rgb(196, 195, 195);
+}
+
+.clear
+{
+	clear:both;
+}
+*{
+	color: #000;
+}
+
+html {
+	background:#536DFE;
+}
+
+#hangman-div2
+{
+	width: 100%;
+	margin:0 auto;
+	background:#536DFE;
+	padding:20px;
+}
+
+#hangman-div2 > div:nth-child(1)
+{
+	width:30%;
+	float:left;
+}
+
+#hangman-div2 > div:nth-child(2)
+{
+	width:20%;
+	float:left;
+	padding:20px;
+}
+
+#hangman-div2 > div:nth-child(3)
+{
+	width:40%;
+	float:left;
+	padding:20px;
+}
+
+#lives-left-div
+{
+	padding:20px;
+	font-size:35px;
+}
+
+#lives-left
+{
+	font-weight:bold;
+	font-size:40px;
+}
+
+#hangman
+{
+	border:1px solid black;
+}
+
+#guessed-word-div
+{
+	text-align:left;
+	font-size:50px;
+	font-weight:bold;
+}
+
+#the-word-was-div
+{
+	font-size:30px;
+	margin-top:40px;;
+	text-align:center;
+}
+
+#play-again-div
+{
+	font-size:30px;
+	margin-top:40px;
+	text-align:center;        
+}
+
+.display-none
+{
+	display:none;
+}
+
+.guessed-letter
+{
+	margin:0px 5px;
+	display:inline-block;
+}
+
+#credits
+{
+	text-align:center;
+	margin-top:20px;
+	font-family:verdana;
+}
+
+#credits a
+{
+	text-decoration:none;
+	color:purple;
+}
+
+@media all and (max-width:500px)
+{
+	#hangman-div2 > div:nth-child(1), #hangman-div2 > div:nth-child(2), #hangman-div2 > div:nth-child(3)
+	{
+		float:none;
+		width:100%;
+	}       
+}  
